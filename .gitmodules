@@ -1,3 +1,6 @@
 [submodule "served"]
 	path = served
 	url = https://github.com/meltwater/served
+[submodule "jsoncpp"]
+	path = jsoncpp
+	url = https://github.com/open-source-parsers/jsoncpp
