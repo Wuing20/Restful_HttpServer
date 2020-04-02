@@ -2,11 +2,11 @@
 .PYTHON: clean
 
 CC=g++
-CFLAGS=-Wall -O -g -lboost_system -lserved -ljsoncpp -lpthread
+CFLAGS=-Wall -O -g -lcurl -lpthread
 
 src=$(wildcard *.cpp)
 obj=$(patsubst %.c,%.o,$(src))
-target=httpserver
+target=httpclient
 
 $(target):$(obj)
 	$(CC) $^ -o $@ $(CFLAGS)
