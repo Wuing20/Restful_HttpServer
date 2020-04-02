@@ -1,0 +1,22 @@
+{
+   "api" : [
+      {
+         "InstructUri" : [ "/api/v1", "/task", "/query" ]
+      },
+      {
+         "SourceUri" : [
+            {
+               "/sources/1" : "../www/openvpn mac客户端安装教程.pdf",
+               "/sources/2" : "../www/1.jpg",
+               "/sources/3" : "../www/2.jpg",
+               "/sources/4" : "../www/baidu.html",
+               "/sources/5" : "../www/mysql-apt-config_0.8.14-1_all.deb",
+               "/sources/6" : "../www/5.jpg",
+               "/sources/7" : "../www/openvpn ubuntu16.04客户端安装教程.pdf",
+               "/sources/8" : "../www/3.jpg",
+               "/sources/9" : "../www/4.jpg"
+            }
+         ]
+      }
+   ]
+}
